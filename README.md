@@ -55,5 +55,5 @@ NX integrates [Cypress](https://www.cypress.io/) by default. You can find the te
 `app/todos-e2e/src/integration` The test suite can be run with:
 
 ```sh
-yarn nx e2e dashboard-e2e --watch
+yarn nx e2e todos-e2e --watch
 ```
