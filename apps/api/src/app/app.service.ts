@@ -3,7 +3,7 @@ import { Todo } from '@trellis/data';
 
 @Injectable()
 export class AppService {
-  todos: Todo[] = [];
+  todos: Todo[] = [{ id: 1, title: 'Test', completed: false }];
 
   getData(): Todo[] {
     return this.todos;

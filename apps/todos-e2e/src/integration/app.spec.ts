@@ -73,7 +73,7 @@ describe('Test - Deleting Items', () => {
     cy.contains('Test Item 1');
 
     // This number should match the number of previously added test items:
-    var numDeletions = 7;
+    var numDeletions = 8;
     // It's not ideal, but conditional testing is even worse and counting children with Cypress outside an assertion is surprisingly difficult.
 
     for(var i = 0; i < numDeletions; i++) {
