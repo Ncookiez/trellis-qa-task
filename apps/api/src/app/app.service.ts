@@ -18,7 +18,9 @@ export class AppService {
 
     console.log(todoToAdd)
 
-    this.todos.push(todoToAdd);
+    // Fixed - 'todos' will not be appended if title length < 1:
+    if(title.length) { this.todos.push(todoToAdd); }
+    // This has also been tested in the API to avoid regression.
 
     return todoToAdd;
   }

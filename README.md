@@ -20,13 +20,13 @@ With the provided Angular application, perform the following:
 
 ### End to End
 1. Using Cypress, write some automated tests of your scenarios. A cypress project is created for you in
-   `app/todo-e2e`.
+   `apps/todo-e2e`.
 
 ### Unit
 1. Using Spectator and Jest, write a component level test for any angular component. The components can be found in `libs/ui`.
 
 2. Using Supertest and Jest, write an integration test for the API app. The project is hosted in
-`app/api`.
+`apps/api`.
 
 We are interested in how you approach these tasks than the final result.
 
@@ -52,7 +52,7 @@ http://localhost:4200.
 ## Running the Test Framework
 
 NX integrates [Cypress](https://www.cypress.io/) by default. You can find the test files in
-`app/todos-e2e/src/integration` The test suite can be run with:
+`apps/todos-e2e/src/integration` The test suite can be run with:
 
 ```sh
 yarn nx e2e todos-e2e --watch
